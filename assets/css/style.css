@@ -1074,7 +1074,7 @@ section {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
-#footer {
+#header #footer {
   padding: 15px;
   color: #f4f6fd;
   font-size: 14px;
@@ -1103,4 +1103,14 @@ section {
     width: auto;
     padding-right: 20px 15px;
   }
+}
+
+#header .profile .qrcode-img {
+    display: none;
+    position: absolute;
+    left: 120px;
+}
+
+#header .profile #weixin:hover + img{
+    display: block;
 }
